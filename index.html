@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./assets/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+  <link rel="icon" href="https://fullstack.edu.vn/assets/favicon/apple-icon-60x60.png" type="image/gif" sizes="16x16">
+  <title>Band Web</title>
+</head>
+
+<body>
+  <div id="main">
+
+    <!-- Navigation bar -->
+    <div id="header">
+      <ul id="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#band">Band</a></li>
+        <li><a href="#tour">Tour</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a href="#">
+            More <i class="nav-icon-down ti-angle-down"></i>
+          </a>
+          <ul class="subnav">
+            <li><a href="#">Merchandise</a></li>
+            <li><a href="#">Media</a></li>
+            <li><a href="#">Extras</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <!-- search button -->
+      <div class="search-btn">
+        <i class="search-icon ti-search"></i>
+      </div>
+      <div id="mobile-menu" class="menu-btn-mobile">
+        <i class="mobile-menu-icon ti-menu"></i>
+      </div>
+    </div>
+
+    <!-- search mobile header js here -->
+    <script src="assets/js/mobile_header.js"></script>
+
+    <div id="slider">
+      <div class="intro-box">
+        <h2 class="text-intro">New York</h2>
+        <div class="text-desc">The asmosphere in New York is lorem ipsum</div>
+      </div>
+
+    </div>
+
+    <!-- The Band Section -->
+    <div class="content" id="band">
+      <div class="content-section">
+        <h2 class="section-heading">THE BAND</h2>
+        <p class="section-sub-heading">We love music</p>
+        <p class="about-desc">
+          We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <div class="row member-list">
+          <div class="member-items">
+            <p class="member-name">Name 1</p>
+            <img src="assets/image/bandmember.jpg" alt="member1" class="member-img">
+          </div>
+          <div class="member-items">
+            <p class="member-name">Name 2</p>
+            <img src="assets/image/bandmember.jpg" alt="member1" class="member-img">
+          </div>
+          <div class="member-items">
+            <p class="member-name">Name 3</p>
+            <img src="assets/image/bandmember.jpg" alt="member1" class="member-img">
+          </div>
+        </div>
+      </div>
+
+      <!-- The Tour Section -->
+      <div class="tour-section" id="tour">
+        <div class="content">
+          <div class="content-section">
+            <h2 class="section-heading text-white">TOUR DATES</h2>
+            <p class="section-sub-heading text-white">Remember to book your ticket</p>
+            <!-- ticket register -->
+            <ul class="ticket-box">
+              <li>September <span class="sold-out">Sold Out</span></li>
+              <li>October <span class="sold-out">Sold Out</span></li>
+              <li>November <span class="quantity">3</span></li>
+            </ul>
+
+            <!-- ticket place -->
+            <div class="row place-list">
+              <div class="col place-item">
+                <img src="assets/image/newyork.jpg" alt="new york" class="place-img">
+                <div class="place-content">
+                  <h3 class="place-name">New York</h3>
+                  <p class="calendar">16, Jun 2020</p>
+                  <p class="decs">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                  <a href="#" class="btn">Book Now</a>
+                </div>
+              </div>
+
+              <div class="col place-item">
+                <img src="assets/image/paris.jpg" alt="Paris" class="place-img">
+                <div class="place-content">
+                  <h3 class="place-name">Paris</h3>
+                  <p class="calendar">20, Oct 2020</p>
+                  <p class="decs">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                  <a href="#" class="btn">Book Now</a>
+                </div>
+              </div>
+
+              <div class="col place-item">
+                <img src="assets/image/sanfran.jpg" alt="sanfran" class="place-img">
+                <div class="place-content">
+                  <h3 class="place-name">San Francisco</h3>
+                  <p class="calendar">4, Jan 2021</p>
+                  <p class="decs">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                  <a href="#" class="btn">Book Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="content">
+      <div class="content-section">
+        <h2 class="section-heading">CONTACT</h2>
+        <p class="section-sub-heading">Fan? Drop a note</p>
+
+        <!-- contact form -->
+        <div class="row contact-section">
+          <div class="col double-col contact-info">
+            <p><i class="ti-location-pin"></i>Chicago, US</p>
+            <p><i class="ti-mobile"></i><a href="tel:+84 151515">Phone: +00 151515</a></p>
+            <p><i class="ti-email"></i><a href="mailto:mail@mail.com">Email: mail@mail.com</a></p>
+          </div>
+          <div class="col double-col contact-form">
+            <form action="">
+              <div class="row">
+                <div class="col double-col">
+                  <input type="text" placeholder="Name" required name="" id="" class="form-control">
+                </div>
+                <div class="col double-col">
+                  <input type="email" name="" placeholder="Email" required id="" class="form-control">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col col-full">
+                  <input type="text" placeholder="Message" required name="" id="" class="form-control">
+                </div>
+              </div>
+              <input class="btn submit-btn" type="submit" value="SEND">
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- End contact form -->
+      <div class="map-section">
+        <img src="assets/image/map.jpg" alt="map">
+      </div>
+    </div>
+
+    <!-- footer section -->
+    <div id="footer">
+      <div class="social-list text-center">
+        <a href="#"><i class="ti-facebook"></i></a>
+        <a href="#"><i class="ti-instagram"></i></a>
+        <a href="#"><i class="ti-pinterest"></i></a>
+        <a href="#"><i class="ti-twitter"></i></a>
+        <a href="#"><i class="ti-youtube"></i></a>
+        <a href="#"><i class="ti-linkedin"></i></a>
+      </div>
+      <p class="copyright text-center">Powered by <a href="#">Jake Tran</a></p>
+    </div>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+/* responsive for PC */
+@media (min-width: 64em) {
+/* 64em = 1024px dùng khi viết function xài riêng cho PC */
+}
+
+/* responsive for tablet & mobile */
+@media (max-width: 63.9375em) {
+
+}
+
+/* responsive for tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+/* 63.9375em= 1023px
+  46.25em = 740px dùng khi viết function xài riêng cho tablet */
+}
+
+/* responsive for mobile */
+@media (max-width: 46.1875em) {
+  /* 46.1875em = 739px */
+
+  .is-hidden {
+    display: none;
+  }
+  
+  #header {
+    overflow: hidden;
+  }
+
+  #header .search-btn {
+    display: none;
+  }
+
+  #header .menu-btn-mobile {
+    display: block;
+  }
+
+  #navbar {
+    display: block;
+  }
+
+  #navbar li {
+    display: block;
+  }
+
+  #navbar > li:first-child {
+    display: inline-block;
+  }
+
+  #navbar li a {
+    padding: 1px 24px;
+  }
+
+  #navbar .subnav {
+    position: initial;
+    background-color: #333;
+  }
+
+  #navbar .subnav a {
+    color: #fff;
+      padding: 5px 41px;
+  }
+
+  .content .member-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content .member-img {
+    margin-top: 20px;
+    width: 105%;
+  }
+    .content .member-list .member-items {
+      padding: 25px;
+    }
+
+  .tour-section .place-list {
+    flex-direction: column;
+  }
+
+  .tour-section .place-img {
+    padding-top: 16px;
+  }
+
+  #contact .contact-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+    #contact .contact-info, .contact-form {
+      width: 100%;
+      padding-top: 26px;
+    }
+
+    #contact .submit-btn {
+      margin-top: 16px;
+      width: 100%;
+    }
+
+}
